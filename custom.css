@@ -1,0 +1,64 @@
+body {
+    padding-top: 65px;
+}
+
+/* .list {
+    background-color: darkgray;
+    min-width: 10%;
+    width: fit-content;
+    min-height: 50px;
+    border-radius: 10px;
+    padding: 1rem;
+} */
+
+.card {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 4px;
+}
+
+.add-list-btn {
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add-list-btn:hover{
+    background-color: rgb(146, 146, 146) !important;
+}
+
+.new-list-form {
+    display: inline-block;
+    width: 250px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.list {
+    display: inline-block;
+    width: 250px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.list-holder {
+    display: inline-block;
+    width: 250px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.kanban {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
